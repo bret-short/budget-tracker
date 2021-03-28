@@ -15,6 +15,8 @@ const FILES_TO_CACHE = [
     "./icons/icon-512x512.png",
     "./icons/icon-72x72.png",
     "./icons/icon-96x96.png",
+    "manifest.json",
+    "/api/transaction"
 ];
 
 self.addEventListener('install', function (e) {
